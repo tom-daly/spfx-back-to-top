@@ -1,0 +1,20 @@
+@import "~office-ui-fabric-react/dist/sass/References.scss";
+
+.backToTop {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 99999;
+  border: 1px solid "[theme: white, default: #fffff]";
+  .iconButton {
+    width: 32px;
+    height: 32px;
+    background-color: "[theme: themePrimary, default: #0072ce]";
+    .icon {
+      color: "[theme: white, default: #fffff]";
+    }
+    &:hover, &:active {
+      background-color: "[theme: themePrimary, default: #0072ce]";
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "spfx-back-to-top-client-side-solution",
+        "id": "0931b7d0-2515-4cf6-ad4b-a3fed3fc140c",
+        "version": "1.0.0.37",
+        "includeClientSideAssets": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "",
+            "websiteUrl": "",
+            "privacyUrl": "",
+            "termsOfUseUrl": "",
+            "mpnId": ""
+        },
+        "features": [
+            {
+                "title": "Application Extension - Deployment of custom action.",
+                "description": "Deploys a custom action with ClientSideComponentId association",
+                "id": "3c8d1941-b9a9-4b63-9f08-5581d3d1268f",
+                "version": "1.0.0.0",
+                "assets": {
+                    "elementManifests": [
+                        "elements.xml",
+                        "ClientSideInstance.xml"
+                    ]
+                }
+            }
+        ]
+    },
+    "paths": {
+        "zippedPackage": "solution/spfx-back-to-top.sppkg"
+    }
+}
