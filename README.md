@@ -21,7 +21,8 @@ Short summary on functionality and used technologies.
 
 ## Prerequisites
 
-> Any special pre-requisites?
+> Built on node.js 10.24.1
+> Gulp 3.9.1
 
 ## Solution
 
