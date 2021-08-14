@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="SpfxBackToTop"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="fa1141d5-b023-4903-b20c-cf29f7482fc5"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

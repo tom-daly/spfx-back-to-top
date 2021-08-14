@@ -9,7 +9,6 @@ node_modules
 # Build generated files
 dist
 lib
-solution
 temp
 
 # Coverage directory used by tools like istanbul
