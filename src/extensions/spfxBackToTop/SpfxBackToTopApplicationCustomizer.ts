@@ -41,7 +41,7 @@ export default class SpfxBackToTopApplicationCustomizer extends BaseApplicationC
           console.log("back to top")
           const element: React.ReactElement<IBackToTopProps> =
             React.createElement(BackToTop, {
-              webUrl: this.context.pageContext.web.absoluteUrl,
+              currentUrl: this.context.pageContext.web.absoluteUrl,
             });
           ReactDOM.render(element, this.topPlaceholder.domElement);
         }
